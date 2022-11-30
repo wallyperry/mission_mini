@@ -1,0 +1,43 @@
+<view style="width:100%; background: none;">
+
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" style="background: white; height: 260px; width: 100%;">
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FKys8ycZF.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FVhBW94ow.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FF1Wj7GO0.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2F3Ksrsfg6.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FoyW1C3yS.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FpKWX7XEK.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2FKgWXSW8b.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/uploads%2F1%2Fg9BdmWRT.jpeg" mode='widthFix' class="swiper-image" /></swiper-item>
+  </swiper>
+
+<view class="form-group_label">💰 积分榜</view>
+    <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="form-cell">
+        <view class="slide">
+        <view class="title">{{userA}}的积分：{{creditA}}</view>
+        </view>
+    </view>
+    <view class="form-cell">
+        <view class="slide">
+        <view class="title">{{userB}}的积分：{{creditB}}</view>
+        </view>
+    </view>
+</view>
+
+<view class="form-group_label">🐻 欢迎回来</view>
+  <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="form-cell">
+      <view class="slide">
+        <view class="title">欢迎！小魏和天天！</view>
+      </view>
+    </view>
+    <view class="form-cell">
+      <view class="slide">
+        <view class="title">今天想做什么呢？</view>
+      </view>
+    </view>
+  </view>
+
+</view>
